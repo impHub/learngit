@@ -19,3 +19,19 @@ git add .  	          把所有文件上传
 需要再次提交 git add .  
 
 git commit   再次确认提交
+
+git commit后面的操作步骤
+1 按下小写字母i，会进入编辑模式。输入你想要的 message
+2 按下esc退出编辑模式
+3 按下英文输入法下的冒号
+4 再输入wq，就可以保存退出了，w是write，q是quit。
+4.1 也可以在按esc退出编辑模式以后，切换到大写模式，连按两下Z。 (可以使用)
+出来以下提示说明成功
+C:\Users\yu\Desktop\gitMyapp>git commit
+			    备注
+[master (root-commit) 49e851f] sssf
+ 3 files changed, 33 insertions(+)
+表示添加的文件
+ create mode 100644 app.js
+ create mode 100644 index.html
+ create mode 100644 "\344\275\277\347\224\250\346\211\213\345\206\214.txt"
