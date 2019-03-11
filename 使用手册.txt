@@ -1,0 +1,21 @@
+git init 初始化 仓库
+
+git config --global user.name 'miss'  第一次用时配置用户名
+
+git config --global user.email 'yujiarui2009@qq.com' 第一次用时配置邮箱
+
+git add index.html   把这个index文件添加到仓库
+
+git status 查看被添加的文件  绿色表示已经添加上的 红色表示没添加上的
+
+git rm --cached index.html 删除已经添加的文件
+
+git add *.html   把所有html类型文件添加
+
+git add .  	          把所有文件上传
+
+当本地文件遭到修改时 用git status 查看时 会提示 modified:   index.html
+
+需要再次提交 git add .  
+
+git commit   再次确认提交
