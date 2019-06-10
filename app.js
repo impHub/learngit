@@ -7,3 +7,8 @@ data:res=> 123
 function test(){
     let a = 17;
 }
+
+function set(){
+    test();
+}
+// 撤销
