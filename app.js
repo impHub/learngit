@@ -4,3 +4,6 @@ console.log('haha')
 // es6
 // 箭头函数
 data:res=> 123
+function test(){
+    let a = 17;
+}
